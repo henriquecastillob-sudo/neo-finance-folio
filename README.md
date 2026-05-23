@@ -1,4 +1,4 @@
-# Henrique Castillo
+# Hugo Enrique Castillo Bernal
 
 ## Senior Data Scientist | FinTech & Banking Analytics
 
