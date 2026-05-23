@@ -63,57 +63,57 @@
 
 :root {
   --radius: 0.5rem;
-  /* Deep navy / black base inspired by Bloomberg Terminal + Stripe */
-  --background: oklch(0.16 0.03 250);
-  --foreground: oklch(0.96 0.01 240);
-  --card: oklch(0.20 0.035 250);
-  --card-foreground: oklch(0.96 0.01 240);
-  --popover: oklch(0.18 0.035 250);
-  --popover-foreground: oklch(0.96 0.01 240);
-  --primary: oklch(0.72 0.17 158);
-  --primary-foreground: oklch(0.14 0.04 250);
-  --primary-glow: oklch(0.82 0.19 158);
-  --secondary: oklch(0.24 0.04 250);
-  --secondary-foreground: oklch(0.96 0.01 240);
-  --muted: oklch(0.22 0.035 250);
-  --muted-foreground: oklch(0.68 0.03 240);
-  --accent: oklch(0.72 0.17 158);
-  --accent-foreground: oklch(0.14 0.04 250);
+  /* Midnight navy + deep purple — Nubank / BBVA / JP Morgan inspired */
+  --background: oklch(0.15 0.04 275);
+  --foreground: oklch(0.96 0.01 280);
+  --card: oklch(0.19 0.05 278);
+  --card-foreground: oklch(0.96 0.01 280);
+  --popover: oklch(0.17 0.05 278);
+  --popover-foreground: oklch(0.96 0.01 280);
+  --primary: oklch(0.62 0.21 295);
+  --primary-foreground: oklch(0.98 0.01 280);
+  --primary-glow: oklch(0.72 0.22 300);
+  --secondary: oklch(0.24 0.06 278);
+  --secondary-foreground: oklch(0.96 0.01 280);
+  --muted: oklch(0.22 0.045 278);
+  --muted-foreground: oklch(0.70 0.03 280);
+  --accent: oklch(0.68 0.18 300);
+  --accent-foreground: oklch(0.14 0.04 278);
   --destructive: oklch(0.65 0.22 25);
-  --destructive-foreground: oklch(0.98 0.01 240);
-  --border: oklch(0.28 0.035 250);
-  --input: oklch(0.24 0.035 250);
-  --ring: oklch(0.72 0.17 158);
+  --destructive-foreground: oklch(0.98 0.01 280);
+  --border: oklch(0.28 0.05 280);
+  --input: oklch(0.24 0.05 278);
+  --ring: oklch(0.62 0.21 295);
 
   --terminal-amber: oklch(0.82 0.17 75);
   --terminal-red: oklch(0.68 0.21 25);
-  --terminal-cyan: oklch(0.78 0.12 215);
+  --terminal-cyan: oklch(0.80 0.12 215);
 
-  --chart-1: oklch(0.72 0.17 158);
-  --chart-2: oklch(0.78 0.12 215);
-  --chart-3: oklch(0.82 0.17 75);
-  --chart-4: oklch(0.68 0.21 25);
-  --chart-5: oklch(0.62 0.18 290);
+  --chart-1: oklch(0.62 0.21 295);
+  --chart-2: oklch(0.72 0.16 250);
+  --chart-3: oklch(0.78 0.12 215);
+  --chart-4: oklch(0.75 0.18 320);
+  --chart-5: oklch(0.68 0.18 270);
 
-  --gradient-hero: radial-gradient(ellipse 80% 60% at 50% 0%, oklch(0.72 0.17 158 / 0.18), transparent 70%);
-  --gradient-emerald: linear-gradient(135deg, oklch(0.72 0.17 158), oklch(0.62 0.15 175));
-  --gradient-card: linear-gradient(160deg, oklch(0.22 0.04 250 / 0.8), oklch(0.18 0.035 250 / 0.6));
+  --gradient-hero: radial-gradient(ellipse 80% 60% at 50% 0%, oklch(0.62 0.22 295 / 0.22), transparent 70%);
+  --gradient-emerald: linear-gradient(135deg, oklch(0.62 0.22 295), oklch(0.72 0.18 260));
+  --gradient-card: linear-gradient(160deg, oklch(0.24 0.06 280 / 0.7), oklch(0.18 0.05 275 / 0.5));
 
-  --shadow-elegant: 0 20px 60px -20px oklch(0 0 0 / 0.6);
-  --shadow-glow: 0 0 40px -8px oklch(0.72 0.17 158 / 0.45);
+  --shadow-elegant: 0 20px 60px -20px oklch(0.10 0.05 275 / 0.7);
+  --shadow-glow: 0 0 40px -8px oklch(0.62 0.22 295 / 0.55);
 
   --font-display: 'Space Grotesk', system-ui, sans-serif;
   --font-body: 'Inter', system-ui, sans-serif;
   --font-mono: 'JetBrains Mono', ui-monospace, monospace;
 
-  --sidebar: oklch(0.18 0.035 250);
-  --sidebar-foreground: oklch(0.96 0.01 240);
-  --sidebar-primary: oklch(0.72 0.17 158);
-  --sidebar-primary-foreground: oklch(0.14 0.04 250);
-  --sidebar-accent: oklch(0.24 0.04 250);
-  --sidebar-accent-foreground: oklch(0.96 0.01 240);
-  --sidebar-border: oklch(0.28 0.035 250);
-  --sidebar-ring: oklch(0.72 0.17 158);
+  --sidebar: oklch(0.17 0.05 278);
+  --sidebar-foreground: oklch(0.96 0.01 280);
+  --sidebar-primary: oklch(0.62 0.21 295);
+  --sidebar-primary-foreground: oklch(0.98 0.01 280);
+  --sidebar-accent: oklch(0.24 0.06 278);
+  --sidebar-accent-foreground: oklch(0.96 0.01 280);
+  --sidebar-border: oklch(0.28 0.05 280);
+  --sidebar-ring: oklch(0.62 0.21 295);
 }
 
 .dark {
@@ -183,8 +183,8 @@
   }
   .bg-grid {
     background-image:
-      linear-gradient(to right, oklch(0.72 0.17 158 / 0.06) 1px, transparent 1px),
-      linear-gradient(to bottom, oklch(0.72 0.17 158 / 0.06) 1px, transparent 1px);
+      linear-gradient(to right, oklch(0.65 0.20 295 / 0.06) 1px, transparent 1px),
+      linear-gradient(to bottom, oklch(0.65 0.20 295 / 0.06) 1px, transparent 1px);
     background-size: 48px 48px;
   }
   .glow-emerald {
