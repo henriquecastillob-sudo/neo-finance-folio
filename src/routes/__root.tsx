@@ -72,14 +72,16 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
     meta: [
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { title: "Alex Mercer — Senior Data Scientist, Banking & FinTech" },
+      { title: "Enrique Castillo— Jr Data Scientist, Banking & FinTech" },
       { name: "description", content: "Senior Data Scientist specializing in risk modeling, fraud detection, and algorithmic finance for global banks and fintech leaders." },
       { name: "author", content: "Alex Mercer" },
-      { property: "og:title", content: "Alex Mercer — Senior Data Scientist" },
-      { property: "og:description", content: "Banking & FinTech data science: risk, fraud, alpha." },
+      { property: "og:title", content: "Enrique Castillo— Jr Data Scientist, Banking & FinTech" },
+      { property: "og:description", content: "Senior Data Scientist specializing in risk modeling, fraud detection, and algorithmic finance for global banks and fintech leaders." },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary" },
       { name: "twitter:site", content: "@Lovable" },
+      { name: "twitter:title", content: "Enrique Castillo— Jr Data Scientist, Banking & FinTech" },
+      { name: "twitter:description", content: "Senior Data Scientist specializing in risk modeling, fraud detection, and algorithmic finance for global banks and fintech leaders." },
     ],
     links: [
       {
