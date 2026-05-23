@@ -15,7 +15,7 @@ export function Contact() {
         </p>
         <div className="mt-12 flex flex-wrap justify-center gap-3">
           <a href="mailto:alex@mercer.fi" className="inline-flex items-center gap-2 px-6 py-3.5 rounded-md bg-primary text-primary-foreground font-medium hover:opacity-90 transition glow-emerald">
-            <Mail className="w-4 h-4" /> alex@mercer.fi
+            <Mail className="w-4 h-4" /><span>alex@mercer.fi</span>
           </a>
           <a href="#" className="inline-flex items-center gap-2 px-6 py-3.5 rounded-md border border-border bg-card/50 backdrop-blur hover:bg-card transition">
             <Calendar className="w-4 h-4" /> Book a 30-min intro
