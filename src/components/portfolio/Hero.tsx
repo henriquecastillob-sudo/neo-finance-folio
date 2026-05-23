@@ -111,15 +111,15 @@ export function Hero() {
             <svg viewBox={`0 0 ${w} ${h}`} className="w-full mt-4">
               <defs>
                 <linearGradient id="spark" x1="0" x2="0" y1="0" y2="1">
-                  <stop offset="0%" stopColor="oklch(0.72 0.17 158)" stopOpacity="0.45" />
-                  <stop offset="100%" stopColor="oklch(0.72 0.17 158)" stopOpacity="0" />
+                  <stop offset="0%" stopColor="oklch(0.65 0.22 295)" stopOpacity="0.5" />
+                  <stop offset="100%" stopColor="oklch(0.65 0.22 295)" stopOpacity="0" />
                 </linearGradient>
               </defs>
               <path d={`${path} L ${w} ${h} L 0 ${h} Z`} fill="url(#spark)" />
               <path
                 d={path}
                 fill="none"
-                stroke="oklch(0.78 0.18 158)"
+                stroke="oklch(0.75 0.20 295)"
                 strokeWidth="2"
                 strokeLinecap="round"
               />
