@@ -1,6 +1,6 @@
 # Hugo Enrique Castillo Bernal
 
-## Senior Data Scientist | FinTech & Banking Analytics
+## Jr. Data Scientist | FinTech & Banking Analytics
 
 Building intelligent financial systems through machine learning, analytics, and scalable data platforms.
 
